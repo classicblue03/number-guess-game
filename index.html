@@ -7,10 +7,20 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>숫자 맞추기게임</h1>
-    <div id="result-area">결과값</div>
-    <input id="user-input" type="number"/>
-    <button id="play-btn">Go</button>
+    <div class="wrapper">
+        <div class="group-game">
+            <h1 class="title">숫자 맞추기게임</h1>
+            <div id="result-area">결과값</div>
+            <div id="chance-area">남은 기회 : 3번</div>
+            <div class="game-flex">
+                <input id="user-input" type="number"/>
+                <button id="play-btn">Go</button>
+            </div>
+            <button id="reset-btn">Reset</button>
+            <div id="com-area">정답</div>
+        </div>
+    </div>
+    <!-- script -->
     <script src="./main.js"></script>
 </body>
 </html>
