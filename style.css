@@ -8,8 +8,8 @@ body{
 button {
     padding: 0;
     border: none;
-    background: transparent;
-    border: 1px solid #fff;
+    /* background: transparent;
+    border: 1px solid #fff; */
     padding: 4px;
 }
 input {border: 0; padding: 0; color: #000;}
